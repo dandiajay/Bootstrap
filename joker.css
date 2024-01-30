@@ -1,112 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-.navbar-brand{
-	 width: 90px;
-  text-align: center;
-  font-family: bold;
-  background-color: gold;
-  border-radius: 10px;
-}
-#nav1{
- padding: 0 200px;
-}
 .marquee{
     font-size: 30px;
+    padding-bottom: 10px;
+    background-color: red;
+    color: white;
 }
-span{
-    color: blue;
-}
 
 
-                                                   /* popular */
-.card {
-    overflow: hidden;
-  }
 
-  .card:hover {
-    transform: scale(0.9);
-    transition: all 1s ease;
-    box-shadow: 0px 0px 5px 5px silver;
-    border-radius: 20px;
-  }
-
-
-  /* hero.html */
-/*   
-  @media screen and (min-width: 800px) {
-    .table1{
-        margin-left: 20px;
-        width: 200px; 
-    }
-    .table2{
-        margin-left: 50px;
-        width: 200px;
-    }
-  } */
-
-  /* @media screen and (max-width: 1020px) {
-    .table1{
-        margin-left: 10px;
-        width: 50px; 
-    }
-    .table2{
-        margin-left: 100px;
-        margin-right: 10px;
-        width: 200px;
-    }
-  } */
+/* Nav-2 */
+.nav2-img{
+  width: 100px;
+  height: 75px;
   
-      h1{
-        background-color: maroon;
-        color: white;
-        width: 100%;
-      }
-      
-      p{
-        color: white;
-        font-size: 20PX;
-      }
-      .span1{
-        color: blue;
-        font-size: 20PX;
-      }
-      .card-title{
-        font-size: 30px;
-        color: brown;
-        margin-left: 50px;
-      }
-      form{
-        width: 400px;
-        background-color: silver;
-        box-shadow: 0px 0px 10px 10px silver;
-    
-      }
-      table td{
-        border: 2px solid black;
-        width: 200px;
+}
+header{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar-2,ul,li{
+  font-size: 20px;
+  color: white;
+}
+ul li{
+  margin-left: 50px;
+}
+
+.nav-bar-2{
+  background-color: red;
+}
+/* Main Nav */
+
+      .nav-imbd{
+        width: 70px;
         text-align: center;
-        font-size: 30px;
-        color: white;
-      }
-  /* images   */
-      .hero{
-      width: 30rem;
-      height: 25rem;
-    }
-     .hero:hover{
-      transition: all 1s ease;
-      transform: scale(1.2);
-      box-shadow: 0px 0px 5px 5px silver;
-      border-radius: 55px;
-      width: 20rem;
-      height: 20rem;
-    }
-      nav{
-        background-color: red;
+        font-family: bold;
+        background-color: gold;
+        border-radius: 10px;
       }
 
+      .main-info{
+        background-color: black;
+        padding-top: -5px;
+      }
+  
+      /* popular movies */
+    .card:hover {
+transform: scale(0.9);
+transition: all 1s ease;
+box-shadow: 0px 0px 5px 5px silver;
+border-radius: 20px;
+}
+.card-body{
+  background-color:red;
+}
 
+.popular-icons{
+  font-size: 30px;
+  color:white;
+}
 
+/* Break point */
 
+@media(max-width:991px){
+header{
+  margin-top: 55px;
+}
+}
 
+@media(max-width:768px){
+  header{
+    margin-top: 55px;
+  }
+  .nav2-img{
+    width: 50px;
+  }
+  .nav-item {
+    font-size: 17px;
+  }
 
-      
+}
+
+@media(max-width:600px){
+
+.nav2-img{
+  width: 50px;
+  
+}
+ul li{
+  margin-left: 30px;
+}
+.nav-item {
+  font-size: 12px;
+}
+} 
+
+@media(max-width:420px){
+header{
+  margin-top: 40px;
+}
+  .nav2-img{
+    width: 40px;
+    
+  }
+  .nav-item {
+    font-size: 12px;
+  }
+  }
+ 
+  
+    
+  
+ @media (max-width:320px){
+  header{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-item{
+    margin-top: 20px;
+    font-size: 7px;
+  }
+  }
+
+  
